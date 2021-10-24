@@ -15,11 +15,11 @@ The **Notes App** is a simple project about **adding** and **deleting notes**. T
 
   * Play/Stop audio file  
   
-  ![](play_stop_button.gif)
+  ![](play_stop.gif)
   
   * Add notes into a flex-box    
   
-  ![](add.gif)
+  ![](add.png)
   
   * Delete a specific note
   
