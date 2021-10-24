@@ -13,26 +13,26 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 The **Notes App** is a simple project about **adding** and **deleting notes**. The main idea was understanding and getting familiar with 
 **Angular** and **Material Design**. More specifically, the **basic features** are the following:
 
-  ### Play/Stop audio file  
+### Play/Stop audio file  
   
-  ![](play_stop.gif)
+![](play_stop.gif)
   
-  ### Add notes into a flex-box    
+### Add notes into a flex-box    
   
-  ![](add.png)
+![](add.png)
   
-  ### Delete a specific note
+### Delete a specific note
   
-  ![](delete.gif)
+![](delete.gif)
   
-  ### Delete all notes and inform the user via a toaster 
+### Delete all notes and inform the user via a toaster 
   
-  ![](delete_all.gif)
+![](delete_all.gif)
   
-  ### Scroll on top
+### Scroll on top
   
-  ![](scroll_on_top.gif)
+![](scroll_on_top.gif)
  
-  ### Τhe app is fully responsive
+### Τhe app is fully responsive
 
-   ![](responsive.gif)
+![](responsive.gif)
