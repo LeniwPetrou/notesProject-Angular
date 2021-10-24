@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 The **Notes App** is a simple project about **adding** and **deleting notes**. The main idea was understanding and getting familiar with 
 **Angular** and **Material Design**. More specifically, the **basic features** are the following:
 
-### Play/Stop audio file  
+## Play/Stop audio file  
   
 ![](play_stop.gif)
   
