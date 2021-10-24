@@ -1,0 +1,45 @@
+
+<div class="content" fxLayout="row wrap" fxLayoutGap="1px" fxLayoutAlign="space-around center">
+    <div fxLayout="row wrap" fxLayoutGap="1px" fxLayoutAlign="space-around center">
+        <div *ngFor="let block of blocks;let i=index" [blockData]="block">
+            <mat-card class="example-card"> 
+                <mat-card-header> 
+                    <button mat-icon-button class="d-block mr-0 ml-auto" aria-label="Clear Button"  (click) = "deleteCard(i)">
+                        <mat-icon>clear</mat-icon>
+                    </button>
+                    <mat-card-subtitle>Note {{i+1}} </mat-card-subtitle> 
+                </mat-card-header> 
+                <mat-card-content> 
+                    <textarea matInput placeholder="Please insert here your text..."></textarea>     
+                </mat-card-content> 
+            </mat-card>
+        </div>
+    </div>
+</div>
+
+<button id = "clearButton" mat-fab color="primary" aria-label="Clear Button" (click) = "clearAllCards()" *ngIf="this.showClearButton">
+    <mat-icon>clear</mat-icon>
+</button>
+
+<button id = "topButton" mat-fab color="primary" aria-label="Top Button" (click) = "gotoTop()" *ngIf="this.isShow">
+    <mat-icon>expand_less</mat-icon>
+</button>
+
+<div class = "parent">
+    <div class = "element">
+        <button  id = "playButton" mat-fab color="primary" aria-label="Play Button" (click) = "showHideMusicButtons()" *ngIf="this.showPlayButton">
+            <mat-icon>play_arrow</mat-icon>
+        </button>
+    </div>
+    <div class = "element">
+        <button class = "element" id = "stopButton" mat-fab color="primary" aria-label="Stop Button" (click) = "showHideMusicButtons()" *ngIf="this.showStopButton">
+            <mat-icon>stop</mat-icon>
+        </button>
+    </div>
+<div>
+ 
+<button id = "addButton" mat-fab color="primary" aria-label="Add Button" (click) = "addCard()">
+    <mat-icon>add</mat-icon>
+</button>
+
+
