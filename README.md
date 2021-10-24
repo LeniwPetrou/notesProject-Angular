@@ -33,6 +33,6 @@ The **Notes App** is a simple project about **adding** and **deleting notes**. T
   
   ![](scroll_on_top.gif)
  
-  * Τhe app is fully responsive
+  ### Τhe app is fully responsive
 
    ![](responsive.gif)
